@@ -31,7 +31,5 @@ public class ArrayListEx
         arr.set(2,70);
         System.out.println(arr);
 
-
-
     }
 }
