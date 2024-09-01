@@ -17,6 +17,11 @@ public class HashMapEx
             System.out.print(i+" ");
         }
         System.out.println();
+
+        //hashmap will give element in unsorted order
+        Map<Integer,Integer> mp1=new HashMap<>();
+
+        //elements in sorted order (TreeMap will give elements in sorted order)
         Map<Integer,Integer> mp=new TreeMap<>();
         for(Integer i:arr)
         {
