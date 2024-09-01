@@ -34,5 +34,6 @@ public class HashSetExample
         // Clear the HashSet
         fruits.clear();
         System.out.println("HashSet after clearing: " + fruits);
+
     }
 }
